@@ -1,0 +1,51 @@
+.cart-container{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+
+}
+.cart-subcontainer{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.card-content{
+    display: flex;
+    margin: 10px;
+}
+
+.card-content img{
+    width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+.card-body{
+    margin: 10px;
+}
+.card-body button{
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+ button:hover{
+    box-shadow: 2px 2px 20px rgb(245, 239, 239);
+}
+.buy-btn{
+    background-color: rgb(61, 112, 61);
+    margin-left:37px;
+}
+.remove-btn{
+    background-color: rgb(159, 53, 53);
+}
+.card-body p{
+    padding: 6px;
+}

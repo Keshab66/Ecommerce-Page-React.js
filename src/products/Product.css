@@ -1,0 +1,21 @@
+.card{
+   box-sizing: border-box;
+}
+.card-body{
+    height: fit-content;
+    background-color: 	#76a5af;
+    margin:2px;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(11, 11, 11);
+}
+.card-body>.add-button{
+    margin-top: 40px;
+    background-color: rgb(23, 177, 131);
+    
+}
+.add-button:active{
+    background-color: green;
+}
