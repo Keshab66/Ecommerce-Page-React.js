@@ -35,7 +35,7 @@ const Footer = () => {
    <div class="footer-center">
 
      <div>
-       <p><span>sjp005064 ,Banglore</span> point 0, Banglore</p>
+       <p><span>sjp005064 ,Bangalore</span> point 0, Bangalore</p>
      </div>
 
      <div>

@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import {GrCart,GrHomeRounded,GrBook,GrSearchAdvanced} from 'react-icons/gr'
-
+import {GrCart,GrBook,GrSearchAdvanced,GrHome} from 'react-icons/gr'
 import LoginHover from '../Hovercomponents/LoginHover'
 import { Modal } from "react-bootstrap"
 import { useSelector } from "react-redux"
@@ -17,7 +16,7 @@ const Navbar = () => {
   // let navigate = useNavigate();
   let CartProduct = useSelector(state => state.AddToCartReducer);
 
-  let iconStyles = { color: "white", fontSize: "1.5em", margin: "2px" };
+  let iconStyles = { color: "white", fontSize: "1.2em", margin: "2px" };
 
   let displaymodel = () => {
     setsignupmodel(false)
@@ -46,7 +45,7 @@ const Navbar = () => {
                 <GrSearchAdvanced className='search-icon'/>
             </div>
            <div className="link-tags">
-            <Link to="/Home"><GrHomeRounded/>Home</Link>
+            <Link to="/Home"><GrHome/>Home</Link>
             <Link to="/About"><GrBook/>About Us</Link>
             <Link to="/Cart"  ><GrCart style={iconStyles}/><sup style={{ color: "yellow", fontSize: "16px" }}>
               {CartProduct.length === 0 ? null : CartProduct.length}
